@@ -58,13 +58,13 @@ def missing_data_analysis(df):
         st.write("**Percentage of Missing Values**")
         st.write(missing_percentage_summary)
 
-        # Visualization of missing data without explicit type conversion
-        try:
-            plt.figure(figsize=(10, 6))
-            sns.heatmap(df.isnull(), cbar=False, cmap='viridis')
-            st.pyplot(plt)
-        except Exception as e:
-            st.warning("Unable to visualize missing data: " + str(e))
+        # # Visualization of missing data without explicit type conversion
+        # try:
+        #     plt.figure(figsize=(10, 6))
+        #     sns.heatmap(df.isnull(), cbar=False, cmap='viridis')
+        #     st.pyplot(plt)
+        # except Exception as e:
+        #     st.warning("Unable to visualize missing data: " + str(e))
 
         # Check for completely blank columns
         blank_columns = df.columns[df.isnull().all()].tolist()
