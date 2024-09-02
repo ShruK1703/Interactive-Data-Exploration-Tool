@@ -1,6 +1,6 @@
 # Interactive-Data-Exploration-Tool
 
-## Link to the streamlit app - https://interactive-data-exploration-tool-5cgxzopu94userusvwl54r.streamlit.app/
+## Link to the streamlit app - https://interactive-data-exploration-tool-bxzjp3s2xzgcghcdv9rexm.streamlit.app/
 Unveil the stories hidden in your data with our Interactive Data Exploration Tool!
 
 Designed for ease of use and packed with powerful features, this tool turns complex data analysis into an intuitive and visual experience.
