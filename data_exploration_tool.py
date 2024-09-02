@@ -243,9 +243,10 @@ def main():
         
         # Visualize data
         visualize_data(df)
+        print("**********")
+        print("Improvements for this app are currently in progress. Exciting new features are coming soon!")
 
-print("Improvements for this app are currently in progress. Exciting new features are coming soon!")
 
 if __name__ == "__main__":
     main()
-
+    
